@@ -1,9 +1,3 @@
 # Hack-TU
-ye sara student ke liye hai 
-login_tms.html ye direct krega checklogin aur checklogin mai href ko change krege src/index.html which is react
-
-data_entry pr redirect krna hai 
-
-
-location_auto file will be used by auto drivers
+This TMS-Transport Management System project is made for Thapar University where the students were facing a difficulty of finding e-rickshaws which were roaming empty in the campus but in the place where they were needed, they could not reach. So we decided to counter this problem by creating a website where the students login to the tms.thapar.edu/login_tms.html site and then their credentials are checked and a new page src/index.html will open which will ask the students to set their current location and their destination. Then this data will be sent to the server through the servlet data_entry.java which will update the database with these destination and location values. Then, in the driver sign up page, after giving details about their adhaar number and vehicle number, the drivers will be able to see the location of the students and can go to the place where maximum students are waiting. This is the Location_Auto.jsp file. Also we will add the Google map API which will sort the e-rickshaws according to their distance and it will save more time.
 
